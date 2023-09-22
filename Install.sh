@@ -5,5 +5,5 @@ cp -p makegen.sh ~/MakeGen/makegen.sh
 chmod +x ~/MakeGen/makegen.sh
 echo "alias makegen="~/MakeGen/makegen.sh"" >> ~/.zshrc
 echo "alias makegen="~/MakeGen/makegen.sh"" >> ~/.bashrc 
-echo "Installation has finished, Please restart your terminal"
+echo "Installation has finished, Please restart your terminal to be able to use makegen command!"
 
