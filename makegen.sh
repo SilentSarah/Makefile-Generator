@@ -45,7 +45,7 @@ clean:
 fclean: clean
 	rm -rf \$(NAME)
 
-re: fclean clean
+re: fclean all
 EOF
 echo "Makefile has been generated successfully!"
 }
