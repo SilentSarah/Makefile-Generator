@@ -26,7 +26,7 @@ gen_makefile() {
 NAME = $name
 CC = $compiler
 FLAGS = -Wall -Werror -Wextra $std
-SRC = \$(addprefix ./, $d)
+SRC = \$(addprefix ./, $curr_dir)
 OBJ = \$(SRC:.$file_ext=.o)
 
 .PHONY: all clean fclean re
